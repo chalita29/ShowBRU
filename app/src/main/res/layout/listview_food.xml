@@ -6,7 +6,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"/>
+        android:layout_height="200dp">
 
         <ImageView
             android:id="@+id/imvFood"
@@ -17,8 +17,9 @@
         <RelativeLayout
             android:background="#666464"
             android:padding="10dp"
+            android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
-            android:layout_height="100dp"/>
+            android:layout_height="100dp">
 
         <TextView
             android:id="@+id/txtFood"
@@ -32,7 +33,8 @@
          <TextView
              android:id="@+id/txtPrice"
          android:background="#ffffff"
-        android:textSize="48sp"
+             android:layout_alignParentRight="true"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:text="50 THB"
         android:layout_width="wrap_content"
@@ -43,9 +45,10 @@
           <TextView
               android:id="@+id/txtDetail"
               android:background="#ffffff"
+              android:layout_alignParentBottom="true"
               android:ellipsize="end"
               android:maxLines="2"
-        android:textSize="24sp"
+        android:textSize="16sp"
         android:textStyle="italic"
         android:text="Food Detail"
         android:layout_width="wrap_content"
@@ -53,7 +56,9 @@
 
 
 
+</RelativeLayout>
 
+    </RelativeLayout>
 
 
 
